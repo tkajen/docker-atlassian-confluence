@@ -15,7 +15,7 @@ ENV CERTIFICATE   $CONF_HOME/certificate
 
 # Set User and UserGroup
 RUN addgroup ${CONF_GROUP} \
-    && useradd -r -u 997 -g ${CONF_GROUP} ${CONF_USER}
+    && useradd -r -u 998 -g ${CONF_GROUP} ${CONF_USER}
 
 
 # Install helper tools and setup initial home
