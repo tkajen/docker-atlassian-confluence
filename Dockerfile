@@ -3,7 +3,7 @@ FROM openjdk:8
 # Setup useful environment variables
 ENV CONF_HOME     /var/atlassian/confluence
 ENV CONF_INSTALL  /opt/atlassian/confluence
-ENV CONF_VERSION  6.3.4
+ENV CONF_VERSION  6.6.1
 ENV CONF_USER confuser
 ENV CONF_GROUP confuser
 ENV HTTP_PORT 8090
